@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&family=Shippori+Antique+B1&family=Smooch+Sans:wght@100&display=swap');
 
+
+#html {
+    font-size: 10px;
+}
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -13,13 +18,18 @@ body {
     background: url('img/gif_pour_site.gif') no-repeat fixed ;
     background-color: #333;
     background-repeat: no-repeat;
-    max-width: 1000px;
-    min-width: 500px;
+    min-width: 100%;
+    min-height: 100%;
     width: 70%;
     margin: 50px auto;
     height: auto;
     position: relative;
     overflow-x: hidden;
+    font-size: min(3vw, 35px);
+    font-size: 1rem;
+    padding: 3rem;
+    position: fixed; 
+    top: 0; 
 }
 
 .container-first {
