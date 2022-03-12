@@ -53,7 +53,7 @@ html {
 /* *****************************************NAVBAR************************************************ */
 #imagePrincipale {
     padding-top: 20px;
-    background: url(/img/fondvernoir.jpg) no-repeat fixed 50% 50%;
+    background: url(img/cette-experience-permet-de-visualiser-la-radioactivite-de-l-uranium_0f8e4a1b307f0d5e81494a52fa38baf969e87306.jpg) no-repeat fixed 50% 50%;
     color: white;
     background-size: cover;
     height: 800px;
@@ -64,10 +64,11 @@ html {
     text-align: center;
     padding: 10px;
 }
+
 #bloc {
     font-family: 'Shippori Antique B1', sans-serif;
-    background-color: black;
-    height: auto;
+    background-color: rgba(23, 120, 211, 0.705);
+    height: max-content;
     width: 400px;
     margin: 50px auto;
     border-radius: 10px;
@@ -75,6 +76,7 @@ html {
     font-size: 1em;
     text-align: center;
     color: #FFFAE1;
+    float: inline-start;
 }
 #TexteInto {
     flex-grow: initial;
@@ -106,7 +108,7 @@ footer {
     background-color: grey;
   }
   button:hover {
-    background-color: green;
+    background-color: plum;
     color: #FFFAE1;
     cursor: pointer;
     transition: 0.3s ease-in-out;
